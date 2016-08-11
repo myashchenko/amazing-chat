@@ -71,6 +71,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
 
         http.authorizeRequests().antMatchers("/api/**", "/auth", "/auth/**").permitAll();
+        http.authorizeRequests().antMatchers("/chat").authenticated();
 
         http.csrf().disable();
 

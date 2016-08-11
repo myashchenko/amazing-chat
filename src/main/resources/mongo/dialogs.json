@@ -1,0 +1,4 @@
+{ "_id" : 1, "_class" : "com.amazing.entity.Dialog", "unames" : ["user1", "user2"], "title" : "title1"}
+{ "_id" : 2, "_class" : "com.amazing.entity.Dialog", "unames" : ["user1", "user2", "user3", "user4"], "title" : "title2"}
+{ "_id" : 3, "_class" : "com.amazing.entity.Dialog", "unames" : ["user1", "user3"], "title" : "title3"}
+{ "_id" : 4, "_class" : "com.amazing.entity.Dialog", "unames" : ["user1", "user4"], "title" : "title4"}

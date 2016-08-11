@@ -1,4 +1,4 @@
-package com.amazing;
+package com.amazing.common;
 
 import com.amazing.entity.Counter;
 import org.springframework.beans.factory.annotation.Autowired;

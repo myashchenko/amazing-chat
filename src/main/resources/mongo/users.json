@@ -1,0 +1,4 @@
+{ "_id" : 1, "_class" : "com.amazing.entity.User", "username" : "user1", "password" : "94378bc319a56ca9493d47f70d3f0039c76f15bf9f725f3d66375df68df897291df609dc8117170d", "role" : "ROLE_USER" }
+{ "_id" : 2, "_class" : "com.amazing.entity.User", "username" : "user2", "password" : "94378bc319a56ca9493d47f70d3f0039c76f15bf9f725f3d66375df68df897291df609dc8117170d", "role" : "ROLE_USER" }
+{ "_id" : 3, "_class" : "com.amazing.entity.User", "username" : "user3", "password" : "94378bc319a56ca9493d47f70d3f0039c76f15bf9f725f3d66375df68df897291df609dc8117170d", "role" : "ROLE_USER" }
+{ "_id" : 4, "_class" : "com.amazing.entity.User", "username" : "user4", "password" : "94378bc319a56ca9493d47f70d3f0039c76f15bf9f725f3d66375df68df897291df609dc8117170d", "role" : "ROLE_USER" }

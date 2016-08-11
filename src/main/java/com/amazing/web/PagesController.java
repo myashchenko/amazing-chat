@@ -1,6 +1,6 @@
 package com.amazing.web;
 
-import com.amazing.CounterService;
+import com.amazing.common.CounterService;
 import com.amazing.entity.User;
 import com.amazing.repository.UserRepository;
 import com.amazing.validator.UserValidator;
@@ -42,7 +42,7 @@ public class PagesController {
 
     @InitBinder
     public void initBinder(WebDataBinder webDataBinder) {
-        webDataBinder.addValidators(new UserValidator());
+        webDataBinder.addValidators(new UserValidator(userRepository));
     }
 
     @GetMapping(value = "/chat")

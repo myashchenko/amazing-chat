@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 
-import java.util.List;
+import java.util.Set;
 
 /**
  * @author Nikolay Yashchenko
@@ -14,6 +14,6 @@ import java.util.List;
 public class Dialog {
     @Id
     private Long id;
-    private List<User> users;
+    private Set<String> unames;
     private String title;
 }
